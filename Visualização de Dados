@@ -1,0 +1,10 @@
+pd.options.display.max_rows = n ---> Muda a forma de visualizaçã 
+do dataframe. Irá mostrar as primeiras n/2 linhas do dataframe e as n/2 linhas finais.
+
+pd.head(n) --> Irá mostrar as primeiras "n" linhas do dataframe. Por padrão do Pandas, temos n = 5.
+pd.tail(n) --> Funciona como o head(), mas irá mostrar as ultimas linhas. Padrão Pandas : n=5
+
+pd.columns --> Mostra os nomes de cada coluna do dataframe
+pd.row     --> Mostra quantas linhas o dataframe possui
+pd.info()  --> Mostra as "meta informações" a respeito do Dataframe. Irá  constar os dois comandos acima e as atribuiçes (int,float,etc) de cada dado.
+
