@@ -1,3 +1,5 @@
+## Inspeção de dados ##
+
 pd.options.display.max_rows = n ---> Muda a forma de visualizaçã 
 do dataframe. Irá mostrar as primeiras n/2 linhas do dataframe e as n/2 linhas finais.
 
@@ -7,4 +9,16 @@ pd.tail(n) --> Funciona como o head(), mas irá mostrar as ultimas linhas. Padr�
 pd.columns --> Mostra os nomes de cada coluna do dataframe
 pd.row     --> Mostra quantas linhas o dataframe possui
 pd.info()  --> Mostra as "meta informações" a respeito do Dataframe. Irá  constar os dois comandos acima e as atribuiçes (int,float,etc) de cada dado.
+pd.shape   --> Retorna lista indicando quantidade de linhas e colunas (Linhas,Colunas)
+pd.describe() --> Retorna um dataframe com informações sobre as colunas númericas (média,contagem de linhas nao nulas,desvio,etc)
 
+## Funções prontas para Dataframes ##
+
+round(dataframe, n) --> Irá arredondar as colunas numericas para a casa decimal "n". n = 0 seria a primeira casa decimal.
+
+## Atributos do Dataframe ##
+pd.size --> Mostra o numero de elementos no dataframe (Multiplica o numero de colunas peloo número de linhas)
+
+## Metodos no Dataframe ##
+
+pd.min()/max() --> Irá mostrar os valores min/max em cada coluna. Se tivermos uma coluna de Strings, irá seguir a ordem alfabetica
