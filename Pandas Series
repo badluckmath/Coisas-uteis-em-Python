@@ -9,3 +9,15 @@ pd.size() --> Mesmo que o count, mas incluir Nan/null
 pd.unique() --> Retorna uma lista com os valores não repetidos da série.
 pd.nunique() --> Retorna sem NaN
 pd.value_counts() --> Mostra a contagem de todos os valores unicos ( não repetidos ).
+
+## Organizando as Séries
+
+pd.sort_index() --> Coloca o index em ordem númerica (crescente por default), ou em ordem alfabética no caso de strings.
+pd.sort_values() --> Coloca os valores da série em '' ''
+#Obs: quando usamos "inplace = True" nos parâmetros do sort, ele muda a série original de acordo com os outros parâmetros colocados
+
+
+## Analisando Séries
+
+pd.nlargest() --> Retorna os maiores valores da série (os 5 primeiros, por default)
+pd.smallest() --> " "        menores " "
