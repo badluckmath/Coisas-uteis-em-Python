@@ -1,0 +1,11 @@
+pd.info() --> não funciona para séries, apenas para dataframe.
+pd.describe --> mesma funcionalidade (media,desvio,minimo,max..)
+
+#Análise de Series Númericas
+
+pd.dtype --> retorna o tipo dos elementos da série( string,float,etc..)
+pd.count() --> Retorna a qtd. de linhas sem NaN/null
+pd.size() --> Mesmo que o count, mas incluir Nan/null
+pd.unique() --> Retorna uma lista com os valores não repetidos da série.
+pd.nunique() --> Retorna sem NaN
+pd.value_counts() --> Mostra a contagem de todos os valores unicos ( não repetidos ).
